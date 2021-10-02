@@ -1,4 +1,4 @@
 dim s
 
-s = InputBox()
+s = InputBox("")
 MsgBox(s & "さんこんにちは!")
