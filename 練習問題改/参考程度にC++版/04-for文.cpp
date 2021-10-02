@@ -14,7 +14,7 @@ int main() {
     }
 
     /* 別解
-    for (int i = m + (m % 2); i < n; i++) {
+    for (int i = m + (m % 2); i < n; i += 2) {
         cout << i << endl;
     }
     */
