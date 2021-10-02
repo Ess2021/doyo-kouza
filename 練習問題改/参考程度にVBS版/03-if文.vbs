@@ -1,5 +1,5 @@
 dim n
-n = InputBox()
+n = InputBox("")
 
 if n < 20 then
     MsgBox("あなたは未成年です")
