@@ -1,15 +1,15 @@
-function Ave(a, b, c)
-    dim _sum, _ave
-    _sum = a + b + c
-    _ave = _sum / 3
-    Ave = _ave
+function Ave(x, y, z)
+    dim sum, ave_
+    sum = x + y + z
+    ave_ = sum / 3
+    Ave = ave_
 end function
 
 dim a, b, c, res
 
-a = InputBox()
-b = InputBox()
-c = InputBox()
+a = InputBox("")
+b = InputBox("")
+c = InputBox("")
 
 res = Ave(a, b, c)
 
