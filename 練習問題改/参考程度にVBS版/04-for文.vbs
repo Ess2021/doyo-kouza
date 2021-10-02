@@ -1,5 +1,8 @@
 dim m, n
 
+m = InputBox("")
+n = InputBox("")
+
 for i = m to n - 1
     if i mod 2 = 0 then
         MsgBox(i)
