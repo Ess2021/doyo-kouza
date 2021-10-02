@@ -11,8 +11,9 @@ Module _04
             End If
         Next
 
-        For i = m + (m Mod 2) To n - 1 Step 2
-            Console.WriteLine(i)
-        Next
+        '別解
+        'For i = m + (m Mod 2) To n - 1 Step 2
+        '    Console.WriteLine(i)
+        'Next
     End Sub
 End Module
