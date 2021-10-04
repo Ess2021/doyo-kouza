@@ -29,7 +29,7 @@ namespace doyokouza_bakudan
 
         public static int カウンター = 0; //ボタンが押されたら1を足す, 8回押されたらおしまい
 
-        public static void 爆弾判定(object sender, EventArgs e) //引数には各ボタンのメタデータが代入される
+        public static void 爆弾判定(object sender, EventArgs e) //引数には各ボタンの持つ値が代入される
         {
             int 押されたボタン = int.Parse(((Button)sender).Text); //int.Parseはint型に変換する
 
