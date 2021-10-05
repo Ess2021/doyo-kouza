@@ -30,9 +30,9 @@ namespace practices {
             Console.WriteLine(h);
         }
 
-        static double Ave (int a, int b, int c) { //引数として、int型のa,b,cを持つ //平均値は、小数の可能性もあるのでdouble型
-            int sum = a + b + c; //int型の変数sumを宣言し、a,b,cを足し合わせる
-            double ave = sum / 3; //double型の変数aveを宣言し、a,b,cを足し合わせた変数sumを3で割る
+        static double Ave (int x, int y, int z) { //引数として、int型のx,y,zを持つ //平均値は、小数の可能性もあるのでdouble型
+            int sum = z + y + z; //int型の変数sumを宣言し、x,y,zを足し合わせる
+            double ave = sum / 3; //double型の変数aveを宣言し、x,y,zを足し合わせた変数sumを3で割る
             return ave; //変数aveを返す
         }
     }
