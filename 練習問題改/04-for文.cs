@@ -29,7 +29,7 @@ namespace practices {
             int m = int.Parse(Console.ReadLine()); //入力
             int n = int.Parse(Console.ReadLine());
                         
-            for (int i = m; i < n; i++) { //int型のiを宣言し、mを代入(int i = m;)。iがn未満のときの場合、ブロック内を繰り返し(i < n;)、一回繰り返すごとにiに1を足していく(i++)。
+            for (int i = m; i < n; i++) { //int型のiを宣言し、mを代入(int i = m;)。iがn未満のとき、ブロック内を繰り返し(i < n;)、一回繰り返すごとにiに1を足していく(i++)。
                 if (i % 2 == 0) { //もし、iを2で割った時の余り(剰余)が0だったら... (もし、iが2の倍数だったら)...
                     Console.WriteLine(i); //iを出力
                 }
